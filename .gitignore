@@ -1,0 +1,6 @@
+.idea/
+*.yml
+LICENSE
+*.md
+package.json
+package-lock.json
