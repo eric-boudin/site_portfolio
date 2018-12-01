@@ -24,7 +24,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#">Eric Boudin</a>
+        <a class="navbar-brand" href="#">Portfolio Eric Boudin</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,12 +34,6 @@
                     <a class="nav-link" href="../index.php">Acceuil
                         <span class="sr-only">(current)</span>
                     </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $racine ?>/php/presentation.php">Qui suis-je?</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $racine ?>/php/projets/projets.php">Mes projets</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo $racine ?>/php/contact.php">Contact</a>
