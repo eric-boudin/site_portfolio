@@ -39,6 +39,9 @@
                     <a class="nav-link" href="<?php echo $racine ?>/php/contact.php">Contact</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="<?php echo $racine ?>/php/admin/admin.php">Zone admin</a>
+                </li>
+                <li class="nav-item">
                     <?php if(isset($racine)):
                             $path = $racine . "/images/linkedin.png";
                     ?>
@@ -47,6 +50,7 @@
                         <a class="nav-link" href="https://www.linkedin.com/in/eric-boudin" target="reseau">LinkedIn</a>
                     <?php endif; ?>
                 </li>
+
             </ul>
         </div>
     </div>
