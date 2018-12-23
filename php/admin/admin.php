@@ -1,4 +1,5 @@
 <?php
+    session_start();
     $racine = "../..";
 ?>
 <!DOCTYPE html>
@@ -29,7 +30,7 @@ include($racine . "/php/models/header.php");
 <!-- Page Content -->
 <div class="container">
     <?php
-        if(isset($_SESSION['id'])):
+        if(!empty($_SESSION['id'])):
     ?>
         <p>Bienvenue <?php echo $_SESSION['pseudo'] ?></p>
     <?php
