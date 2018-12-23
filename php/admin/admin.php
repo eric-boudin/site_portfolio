@@ -33,6 +33,7 @@ include($racine . "/php/models/header.php");
         if(!empty($_SESSION['id'])):
     ?>
         <p>Bienvenue <?php echo $_SESSION['pseudo'] ?></p>
+        <a href="deconnexion.php">Se déconnecter</a>
     <?php
         else:
     ?>
